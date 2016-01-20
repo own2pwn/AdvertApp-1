@@ -1,11 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AdvertApp.Models
+namespace Data
 {
     public class BaseEntity
     {
-        const string regex = "";
         #region Property ID
         [DataType(DataType.EmailAddress)]
         public int ID { get; set; }

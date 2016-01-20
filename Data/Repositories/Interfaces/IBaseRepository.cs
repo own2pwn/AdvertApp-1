@@ -1,6 +1,6 @@
-﻿using AdvertApp.CommonClasses;
+﻿using Common.CommonClasses;
 
-namespace AdvertApp.Repositories.Interfaces
+namespace Data.Repositories.Interfaces
 {
     public interface IBaseRepository<T>
     {

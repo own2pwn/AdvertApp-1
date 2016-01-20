@@ -1,8 +1,8 @@
 ﻿using System;
-using AdvertApp.CommonClasses;
-using AdvertApp.Repositories.Interfaces;
+using Common.CommonClasses;
+using Data.Repositories.Interfaces;
 
-namespace AdvertApp.Repositories
+namespace Data.Repositories
 {
     public class BaseRepository<T> : IBaseRepository<T>
     {

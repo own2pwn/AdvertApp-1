@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdvertApp.Models
+namespace Data
 {
     public class DatabaseContext: DbContext
     {

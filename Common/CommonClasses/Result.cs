@@ -1,4 +1,4 @@
-﻿namespace AdvertApp.CommonClasses
+﻿namespace Common.CommonClasses
 {
     public class Result
     {
