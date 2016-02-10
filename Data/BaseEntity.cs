@@ -6,7 +6,7 @@ namespace Data
     public class BaseEntity
     {
         #region Property ID
-        [DataType(DataType.EmailAddress)]
+        [Key]
         public int ID { get; set; }
         #endregion
 

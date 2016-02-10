@@ -51,13 +51,16 @@
   <ItemGroup>
     <Compile Include="BaseEntity.cs" />
     <Compile Include="DatabaseContext.cs" />
+    <Compile Include="DataBaseModels\Advert.cs" />
+    <Compile Include="DataBaseModels\Equipment.cs" />
+    <Compile Include="DataBaseModels\User.cs" />
+    <Compile Include="Enums\AdvertTypes.cs" />
+    <Compile Include="Enums\EstateTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
     <Compile Include="Repositories\Interfaces\IBaseRepository.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DataBaseModels\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{ed9dfd5c-7f09-4fc9-a5f6-a96449af13d0}</Project>
