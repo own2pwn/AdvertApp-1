@@ -1,6 +1,6 @@
-﻿using Common.CommonClasses;
+﻿using Common;
 
-namespace Data.Repositories.Interfaces
+namespace Repositories.Interfaces
 {
     public interface IBaseRepository<T>
     {

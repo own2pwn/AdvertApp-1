@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data
+namespace Models.Enums
 {
-    public class DatabaseContext: DbContext
+    public enum AdvertTypes
     {
-
+        Rent = 1,
+        Sale = 2
     }
 }

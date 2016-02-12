@@ -1,6 +1,9 @@
-﻿
-namespace Data.DataBaseModels
+﻿using Common;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Models.DataBaseModels
 {
+    [Table("Users")]
     public class User : BaseEntity
     {
         public string Name { get; set; }

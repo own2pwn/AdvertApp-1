@@ -1,7 +1,10 @@
-﻿using Data.Enums;
+﻿using Common;
+using Models.Enums;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Data.DataBaseModels
+namespace Models.DataBaseModels
 {
+    [Table("Advert")]
     public class Advert : BaseEntity
     {
         public string Description { get; set; }

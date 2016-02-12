@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{273088E7-211E-4851-8B10-660CC0018EC7}</ProjectGuid>
+    <ProjectGuid>{1205099F-31A7-4DA3-8734-ABA5E8D8ADE0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Data</RootNamespace>
-    <AssemblyName>Data</AssemblyName>
+    <RootNamespace>Models</RootNamespace>
+    <AssemblyName>Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -49,9 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataBaseModels\Advert.cs" />
+    <Compile Include="DataBaseModels\Equipment.cs" />
+    <Compile Include="DataBaseModels\User.cs" />
+    <Compile Include="Enums\AdvertTypes.cs" />
+    <Compile Include="Enums\EstateTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{ed9dfd5c-7f09-4fc9-a5f6-a96449af13d0}</Project>

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.Contracts;
-using System.Linq;
-using System.Web;
+﻿using Repositories;
 using System.Web.Mvc;
 
 namespace AdvertApp.Controllers
@@ -12,8 +8,7 @@ namespace AdvertApp.Controllers
         // GET: Advert
         public ActionResult Index()
         {
-            Contract
-
+            var users = new UserRepository();
             return View();
         }
 
